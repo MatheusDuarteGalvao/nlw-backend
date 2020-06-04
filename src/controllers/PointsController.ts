@@ -52,7 +52,7 @@ class PointsController {
     const trx = await knex.transaction();
 
     const point = {
-      image: 'image-fake',
+      image: 'http://apasshow.com.br/blog/wp-content/uploads/2019/12/Amazon-entra-oficialmente-no-setor-supermercadista-a-partir-de-2020.jpg',
       name,
       email,
       whatsapp,
